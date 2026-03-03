@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="Description" content="Boilerplate for polaris chip">
+  <meta name="Description" content="Counter App Demo">
   <base href="/">
 
   <style>
@@ -17,83 +17,17 @@
       background-color: #ededed;
     }
 
-    polaris-chip {
-      margin: 16px;
-    }
-
-    .wrapper {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 16px;
-      padding: 16px;
-    }
-
-    my-card[fancy] {
-      --my-card-fancy-bg: #FF0000;
-    }
-
     counter-app {
       margin: 16px;
     }
   </style>
 
-  <title>polaris-chip / cards</title>
+  <title>Counter App Demo</title>
 </head>
 
 <body>
-  <h1>polaris-chip</h1>
 
-  <polaris-chip title="News of Record" link="https://psu.edu/"></polaris-chip>
-  <polaris-chip title="Faculty and Staff"></polaris-chip>
-  <polaris-chip title="Sports are the only thing that matter"></polaris-chip>
-  <polaris-chip title="Grants and donations"></polaris-chip>
-
-  <div class="wrapper">
-
-    <my-card
-      fancy
-      title="McDonalds"
-      theme="mcd"
-      image="https://logos-world.net/wp-content/uploads/2020/05/McDonalds-Logo.jpg"
-      link="https://www.mcdonalds.com/us/en-us/full-menu.html">
-      <p>Big Mac and ten-piece chicken nuggets</p>
-    </my-card>
-
-    <my-card
-      title="Chick-fil-A"
-      theme="cfa"
-      image="https://tse2.mm.bing.net/th/id/OIP.6q1W2mjgNvK6rz0ghKSZ4wHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
-      link="https://www.chick-fil-a.com/">
-      <p>Chick-fil-A Sandwich and a <strong>FROSTED LEMONADE</strong></p>
-    </my-card>
-
-    <my-card
-      title="Spotify"
-      theme="green"
-      image="https://static.vecteezy.com/system/resources/previews/042/148/631/original/spotify-logo-spotify-social-media-icon-free-png.png"
-      link="https://open.spotify.com/">
-      <p>MUSIC!!!</p>
-    </my-card>
-
-    <my-card
-      title="Taco Bell"
-      theme="purple"
-      image="https://cdn.freebiesupply.com/logos/large/2x/taco-bell-5-logo-png-transparent.png"
-      link="https://www.tacobell.com/">
-      <p>giuuu fake mexican food</p>
-    </my-card>
-
-    <my-card
-      title="YouTube"
-      theme="psu"
-      image="https://www.freepnglogos.com/uploads/youtube-logo-hd-8.png"
-      link="https://www.youtube.com/">
-      <p>good videos</p>
-    </my-card>
-
-  </div>
-
-  <h2>Counter App Demo</h2>
+  <h1>Counter App Demo</h1>
 
   <!-- Default counter -->
   <counter-app></counter-app>
@@ -101,8 +35,6 @@
   <!-- Counter with custom values -->
   <counter-app counter="16" min="10" max="25"></counter-app>
 
-  <script type="module" src="./src/polaris-chip.js"></script>
-  <script type="module" src="./src/my-card.js"></script>
   <script type="module" src="./src/counter-app.js"></script>
 
 </body>
